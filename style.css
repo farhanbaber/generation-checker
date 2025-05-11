@@ -101,7 +101,7 @@
                 padding: 1.5rem;
             }
 
-            input, #selection, button {
+            input, #selection, button , #output{
                 max-width: 250px;
                 font-size: 1.1rem;
                 padding: 0.6rem;
@@ -120,7 +120,7 @@
                 margin: 1rem auto;
             }
 
-            input, #selection, button {
+            input, #selection, button ,#output {
                 max-width: 100%;
                 font-size: 1rem;
                 padding: 0.5rem;
@@ -134,7 +134,7 @@
 
         /* Ensure touch-friendly sizes for mobile */
         @media (hover: none) {
-            button, input, select {
+            button, input, select,#ouput {
                 padding: 0.8rem;
             }
         }
