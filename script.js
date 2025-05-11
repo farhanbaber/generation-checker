@@ -1,5 +1,5 @@
 function check() {
-    let input = document.getElementById("input")
+    let output = document.getElementById("output")
    let  selection = document.getElementById("selection").value
    let result = "";
    if (selection === "1880 to 1900") {
@@ -12,7 +12,7 @@ function check() {
     result = "Baby Boomers"
    }else if (selection ==="1965 to 1980") {
     result = "Generation X"
-   }else if (selection ==="1981-1996") {
+   }else if (selection ==="1981 to 1996") {
     result = "Millennials"
    }else if (selection ==="1997 to 2012") {
     result = "Generation Z"
@@ -20,8 +20,6 @@ function check() {
     result = "Generation Alpha"
    }else alert("plz select options")
     
-   
-   input.value = "You Are: " + result;
+   output.innerText = "You Are: " + result;
 
-
-}
+} 

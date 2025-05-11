@@ -53,11 +53,27 @@
             margin: 0.5rem 0;
             box-sizing: border-box;
         }
+        #output{
+            width: 100%;
+            max-width: 300px;
+            padding: 0.75rem;
+            border-radius: 20px;
+            border: none;
+           font-family: "Caveat", cursive, sans-serif;
+           font-size: 1.25rem;
+           margin: 0.5rem 0;
+           box-sizing: border-box;
+           color: black;
+           background-color: rgb(247, 247, 247);
+
+        }
 
         button {
             cursor: pointer;
             background-color: #f0f0f0;
             transition: background-color 0.3s;
+            position: relative;
+            bottom: 1rem;
         }
 
         button:hover {
